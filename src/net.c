@@ -216,6 +216,7 @@ netdial(int domain, int proto, char *local, int local_port, char *server, int po
 
 /***************************************************************/
 
+//创建socket,绑定socket,	监听socket
 int
 netannounce(int domain, int proto, char *local, int port)
 {

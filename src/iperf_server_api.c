@@ -86,6 +86,7 @@ iperf_server_listen(struct iperf_test *test)
 	}
     }
 
+    //显示server监听端口
     if (!test->json_output) {
 	iperf_printf(test, "-----------------------------------------------------------\n");
 	iperf_printf(test, "Server listening on %d\n", test->server_port);
